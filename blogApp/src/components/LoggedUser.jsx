@@ -4,7 +4,7 @@ const LoggedInUser = () => {
     const {user} = useUser();
     return (
         <p>
-          Hello <span>{user.name} !</span>
+          Hello, <span>{user.name} !</span>
         </p>
     )
 }
